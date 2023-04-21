@@ -5,6 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .nav {
@@ -75,6 +76,15 @@
         top: initial;
         bottom: 0;
         padding: 0.4rem 0;
+        background-color: #4e4e4e;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .nav-logo,
+    .nav-toggle {
+        color: #ffffff;
+        
     }
 
     .nav {
@@ -87,7 +97,7 @@
         left: 0;
         width: 100%;
         background-color: #fff;
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.5rem 3rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: 300ms;

@@ -33,6 +33,7 @@
 
 .skills-data {
     display: flex;
+    flex-grow: 1;
     column-gap: 0.5rem;
 }
 
@@ -83,15 +84,18 @@
     font-size: 0.9rem;
 }
 
-@media screen and (max-width: 1024px) {
-    
-    .skills-data {
+@media screen and (max-width: 480px) {
+    .skill-data{
         flex-grow: 1;
+        justify-content: center;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
     .skills-data {
         flex-grow: 1;
+        justify-content: center;
+
     }
 }

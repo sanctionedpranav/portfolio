@@ -7,7 +7,7 @@ export const Home = () => {
     return (
         <section className='home section' id='home'>
             <div className='home-container container grid'>
-                <div className='home-content grid'>
+                <div className='home-content flex'>
                     <Social styleClassName="home-social" styleIconClassName="home-social-icon" />
 
                     <div className='home-img'></div>

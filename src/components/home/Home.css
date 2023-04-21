@@ -79,6 +79,20 @@
     .btn {
         width: 100% !important;
     }
+    .flex {
+        display: flex !important;
+        flex-direction: column-reverse;
+        gap: 4rem !important;
+    }
+    .home-social{
+        display: none;
+    }
+    .home-content{
+        padding: 0;
+    }
+    .section{
+        padding:  0 0 4rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
