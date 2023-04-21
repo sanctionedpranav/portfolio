@@ -9,6 +9,7 @@ export const devSkill = [
     [
         { icon: "html5", title: "HTML", level: "Professional" },
         { icon: "css3", title: "CSS", level: "Professional" },
+        { icon: "sass", title: "Sass", level: "Intermediate" },
         { icon: "bootstrap", title: "Bootstrap", level: "Professional" },
         { icon: "javascript", title: "JavaScript", level: "Advanced" },
         { icon: "git", title: "Git", level: "Intermmediate" },

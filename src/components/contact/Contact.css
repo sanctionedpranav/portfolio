@@ -98,9 +98,21 @@
     background-color: var(--body-color);
     z-index: 10;
 }
-.contact-form-area{
-    height: 11rem ;
+
+.contact-form-area {
+    height: 11rem;
 }
-.contact-form-area textarea{
+
+.contact-form-area textarea {
     resize: none;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        grid-template-columns: 100%;
+    }
 }

@@ -1,71 +1,86 @@
-.qualification-containter{
+.qualification-containter {
     max-width: 768px;
 }
-.qualification-tabs{
+
+.qualification-tabs {
     display: flex;
     justify-content: center;
     margin-bottom: var(--mb-2);
 }
-.qualification-btn{
+
+.qualification-btn {
     font-size: var(--h3-font);
     font-weight: var(--font-medium);
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
-.qualification-btn:hover{
+
+.qualification-btn:hover {
     color: var(--title-color-dark);
 }
-.qualification-icon{
+
+.qualification-icon {
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
 }
-.qualification-active{
+
+.qualification-active {
     color: var(--title-color-dark);
 }
-.qualification-sections{
+
+.qualification-sections {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
 }
-.qualification-content{
+
+.qualification-content {
     /* display: none; */
 }
-.qualification-content-active{
+
+.qualification-content-active {
     display: block;
 }
-.qualification-data{
+
+.qualification-data {
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
 }
 
-.qualification-timeline{
+.qualification-timeline {
     text-align: center;
 }
-.qualification-title{
+
+.qualification-title {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
-.qualification-subtitle{
+
+.qualification-subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
 }
-.qualification-calendar{
+
+.qualification-calendar {
     font-size: var(--small-font-size);
 }
-.qualification-calendar i{
+
+.qualification-calendar i {
     margin-right: 0.4rem;
 }
-.qualification-round{
+
+.qualification-round {
     display: inline-block;
     border-radius: 50%;
     width: 13px;
     height: 13px;
     background-color: var(--title-color);
 }
-.qualification-line{
+
+.qualification-line {
     display: block;
     width: 1px;
     height: 100%;
@@ -73,5 +88,10 @@
     transform: translate(6px, -7px);
 }
 
-
-
+@media screen and (max-width: 480px) {
+    .qualification-sections {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}

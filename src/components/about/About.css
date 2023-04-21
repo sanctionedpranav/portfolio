@@ -52,3 +52,10 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2);
 }
+
+@media screen and (max-width: 480px){
+    .about-data .about-desc{
+        padding: 0;
+        text-align: center;
+    }
+}

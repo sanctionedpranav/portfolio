@@ -66,7 +66,8 @@
     padding: 4.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
 }
-.services-modal-close{
+
+.services-modal-close {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -74,61 +75,90 @@
     color: var(--title-color);
     cursor: pointer;
 }
+
 .services-modal-title,
-.services-modal-desc{
+.services-modal-desc {
     text-align: center;
     word-wrap: break-word;
 }
 
-.services-modal-title{
+.services-modal-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
-.services-modal-desc{
+
+.services-modal-desc {
     font-variant-east-asian: var(--small-font-size);
     padding: 0 3.5rem;
     margin-bottom: var(--mb-2);
 }
 
-.services-modal-services{
+.services-modal-services {
     row-gap: 0.75rem;
 }
-.services-modal-services{
+
+.services-modal-services {
     display: flex;
     align-items: center;
     column-gap: 0.5rem;
 }
-.services-cards{
+
+.services-cards {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
-.services-modal-info{
+.services-modal-info {
     font-size: var(--small-font-size);
 }
-.active-modal{
+
+.active-modal {
     opacity: 1;
     visibility: visible;
 }
 
-@media only screen and (max-width: 768px) {
-    .services-cards{
+@media only screen and (max-width: 989px) {
+    .services-cards {
         flex-wrap: wrap;
     }
-    .services-title{
+
+    .services-title {
         font-size: 1.6rem;
     }
+
     .services-content {
         padding: 4rem 6rem 2rem 3.5rem;
     }
-    .services-btn{
+
+    .services-btn {
         font-size: 1rem;
     }
-    .services-btn-icon{
+
+    .services-btn-icon {
         margin-top: 3px;
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .services-cards {
+        flex-wrap: wrap;
+    }
 
+    .services-title {
+        font-size: 1.6rem;
+    }
+
+    .services-content {
+        padding: 4rem 6rem 2rem 3.5rem;
+    }
+
+    .services-btn {
+        font-size: 1rem;
+    }
+
+    .services-btn-icon {
+        margin-top: 3px;
+    }
+}
