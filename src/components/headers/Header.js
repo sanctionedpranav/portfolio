@@ -8,7 +8,7 @@ export const Header = ({ companyName, menuList }) => {
     return (<div>
         <header className="header">
             <nav className="nav container">
-                <a href="#contact" className="nav-logo">{companyName}</a>
+                <Link to="/" className="nav-logo">{companyName}</Link>
 
                 <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list">
