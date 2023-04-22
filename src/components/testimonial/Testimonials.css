@@ -26,7 +26,9 @@
 .testimonial-desc {
     font-size: var(--small-font-size);
 }
-
+.swiper{
+    width: 100%;
+}
 .swiper-pagination-bullet {
     background-color: var(--text-color) !important;
 }

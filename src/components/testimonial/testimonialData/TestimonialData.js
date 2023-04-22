@@ -5,8 +5,8 @@ export const TestimonialData = [
     {
         id: 1,
         image: Img1,
-        title: "Jhon Doe",
-        desc: "lorem ipsum"
+        title: "Abhijith As",
+        desc: "Working with Pranav was an absolute pleasure. He was able to turn my vision into a beautiful, functional website that exceeded my expectations.I would definitely work with him again."
     },
     {
         id: 2,

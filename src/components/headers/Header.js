@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css"
+import { Link } from "react-router-dom";
 
 export const Header = ({ companyName, menuList }) => {
     const [Toggle, showMenu] = useState(false);
@@ -11,12 +12,12 @@ export const Header = ({ companyName, menuList }) => {
 
                 <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
                     <ul className="nav-list">
-                        {menuList.map((element) => {
+                        {menuList?.map((element) => {
                             return (
                                 <li className="nav-item" key={element}>
-                                    <a href={`#${element}`} className="nav-link">
+                                    <Link to={`/${element}`} className="nav-link">
                                         <i className="uil uil-estate nav-icon" ></i>{element}
-                                    </a>
+                                    </Link>
                                 </li>
                             )
                         })}                        
