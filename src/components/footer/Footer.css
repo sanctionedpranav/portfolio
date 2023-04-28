@@ -40,10 +40,16 @@
 
 .footer-social-icon {
     font-size: 1.6rem;
-    color: #fff;
+    color: #181D31;
     background-color: var(--title-color);
     padding: 0.2rem 0.6rem;
     border-radius: 5px;
+    transition: 0.2s;
+}
+
+.footer-social-icon:hover {
+    background-color: #678983;
+    color: #E6DDC4;
 }
 
 .footer-social-link {
